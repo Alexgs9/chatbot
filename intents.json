@@ -1,0 +1,23 @@
+{"intents":[
+    {
+        "tag": "saludos",
+        "patterns": ["Hola", "Como estas?", "Saludos", "Que tal", "Buen dia", "Que hay?", "Que onda?", "Que pasa?", "Que tal?"],
+        "responses": ["Hola!", "Me agrada verte de nuevo!", "Hola! puedo ayudarte?", "Hola, listo para trabajar en ti?"]
+    },
+    {
+        "tag": "nombre",
+        "patterns": ["cual es tu nombre?", "tu nombre", "como te llamas?", "quien eres?"],
+        "responses": ["Puedes llamarme tu ConscienciaAGS.", "Soy tu ConscienciaAGS.", "Mi nombre es tu ConcienciaAGS."]
+    },
+    {
+        "tag": "adios",
+        "patterns": ["Adios", "Hasta luego", "Nos vemos", "Hasta pronto", "Hasta la proxima", "Bye", "Bye bye", "Bye bye bye"],
+        "responses": ["Hasta luego!", "Nos vemos!", "Fue bueno verte!", "Espero verte pronto!"]
+    },
+    {
+        "tag": "opciones",
+        "patterns": ["Que puedo hacer hoy?", "Dime que hago", "Que puedes hacer por mi?", "Dime que puedo hacer", "Dime opciones de cosas que mejorar en mi", "opciones de mejoras"],
+        "responses": ["Hoy puedes mejorar tu capacidad fisica", "Hoy puedes mejorar tus relaciones", "Hoy puedes mejorar tu inteligencia"]
+    }
+]
+}
